@@ -117,6 +117,7 @@ CREATE TABLE [dbo].[Slot](
 	[Available] [int] NOT NULL,
 	[Used] [int] NOT NULL,
 	[Active] [bit] NOT NULL,
+	[ParkingFeePerHour] [decimal] (18,0) NOT NULL,
 	[CreatedTime] [datetime] NOT NULL,
 	[LastUpdatedTime] [datetime] NULL,
  CONSTRAINT [PK_Slot] PRIMARY KEY CLUSTERED 
