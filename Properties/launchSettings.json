@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ParkingSystem": {
+      "commandName": "Project",
+      "commandLineArgs": "create_parking_lot 6"
+    }
+  }
+}
